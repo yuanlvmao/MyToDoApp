@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/appbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/toolbar">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        >
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_height"
+            android:id="@+id/title_bar"
+            >
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/left_image"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="@dimen/size_15"
+                android:src="@mipmap/nav_icon_back_default"
+                android:contentDescription="@string/app_name"/>
+
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:visibility="visible"
+                android:textSize="@dimen/textsize_16"
+                android:singleLine="true"
+                android:text=""/>
+
+
+            <TextView
+                android:visibility="gone"
+                android:layout_alignBottom="@id/title"
+                android:id="@+id/title_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/textsize_14"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_vertical"
+                android:text=""
+                />
+
+            <ImageView
+                android:id="@+id/tips_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/title_right"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+</android.support.design.widget.AppBarLayout>
+
+
+
+

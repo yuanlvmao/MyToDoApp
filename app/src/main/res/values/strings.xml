@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">MyToDoApp</string>
+    <string name="user_name">用户名</string>
+    <string name="user_name_hint">输入您的用户名</string>
+    <string name="password">密码</string>
+    <string name="password_hint">请输入您的密码</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">密码太短</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">不能为空</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="login">登录</string>
+    <string name="register_tip">还没账号，点击注册</string>
+    <string name="register">注册</string>
+    <string name="password_confirm_hint">请确认您的密码</string>
+    <string name="password_not_same">密码不一致</string>
+    <string name="connect_error">网络连接失败</string>
+    <string name="register_success">注册成功</string>
 </resources>
